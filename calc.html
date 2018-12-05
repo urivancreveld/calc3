@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>calculator</title>
+</head>
+<body>
+<script src="../calc/calc.js"></script>
+
+<table>
+  <tbody>
+  <tr>
+    <td width="138">
+      <p><button onclick="numpress(7)">7</button></p>
+    </td>
+    <td width="138">
+      <p><button onclick="numpress(8)">8</button></p>
+    </td>
+    <td width="138">
+      <p><button onclick="numpress(9)">9</button></p>
+    <td width="138">
+      <p><button onclick="opressed('division')">/</button></p>    </td>
+  </tr>
+  <tr>
+    <td width="138">
+      <p><button onclick="numpress(4)">4</button></p>
+    <td width="138">
+      <p><button onclick="numpress(5)">5</button></p>
+    <td width="138">
+      <p><button onclick="numpress(6)">6</button></p>
+    <td width="138">
+      <p><button onclick="opressed('multi')">*</button></p>    </td>
+  </tr>
+  <tr>
+    <td width="138">
+      <p><button onclick="numpress(1)">1</button></p>
+    <td width="138">
+      <p><button onclick="numpress(2)">2</button></p>
+    <td width="138">
+      <p><button onclick="numpress(3)">3</button></p>
+    <td width="138">
+      <p><button onclick="opressed('substract')">-</button></p>    </td>
+  </tr>
+  <tr>
+    <td width="138">
+      <p id="result">RESULT</p>
+    </td>
+    <td width="138">
+      <p><button>0</button></p>
+    </td>
+    <td width="138">
+      <p><button onclick="calc()">=</button></p>
+    </td>
+    <td width="138">
+      <p><button  onclick="opressed('addition')">+</button></p>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<p><span>&nbsp;</span></p>
+
+</body>
+</html>
